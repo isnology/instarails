@@ -30,7 +30,14 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'devise'
+
+gem 'shrine'
+gem 'image_processing'
+gem 'mini_magick'
+gem 'fastimage' # for store_dimenstions plugin
+
 gem 'bootstrap', '~>4.0.0.beta'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
